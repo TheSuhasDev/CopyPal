@@ -1,0 +1,12 @@
+{
+    "projects": [
+      {
+        "src": "./client/package.json",
+        "use": "@vercel/static-build"
+      },
+      {
+        "src": "./server/server.js",
+        "use": "@vercel/node"
+      }
+    ]
+  }
