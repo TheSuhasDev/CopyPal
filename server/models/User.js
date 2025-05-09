@@ -10,7 +10,7 @@ const noteSchema = new mongoose.Schema({
         required: true
     }
 });
-// user schmema comment
+
 const userschema=new mongoose.Schema({
     usercode:{
         type:String,
